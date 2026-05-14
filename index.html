@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adil & Elena — Wedding Invitation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="ru">RU</button>
+        <button class="lang-btn" data-lang="ky">KY</button>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-pattern"></div>
+        <div class="hero-content">
+            <div class="ornament-top">
+                <svg viewBox="0 0 200 40" class="ornament-svg">
+                    <path d="M0,20 Q50,0 100,20 Q150,40 200,20" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                    <circle cx="20" cy="20" r="3" fill="currentColor"/>
+                    <circle cx="100" cy="20" r="4" fill="currentColor"/>
+                    <circle cx="180" cy="20" r="3" fill="currentColor"/>
+                </svg>
+            </div>
+            <p class="hero-subtitle" data-ru="Приглашение на свадьбу" data-ky="Үйлөнүүго чакыруу">Приглашение на свадьбу</p>
+            <h1 class="hero-title">Adil <span class="ampersand">&</span> Elena</h1>
+            <div class="hero-date">
+                <span class="date-number">01</span>
+                <span class="date-divider">•</span>
+                <span class="date-number">08</span>
+                <span class="date-divider">•</span>
+                <span class="date-number">2026</span>
+            </div>
+            <p class="hero-venue" data-ru="Бишкек, Кыргызстан" data-ky="Бишкек, Кыргызстан">Бишкек, Кыргызстан</p>
+            <div class="ornament-bottom">
+                <svg viewBox="0 0 200 40" class="ornament-svg">
+                    <path d="M0,20 Q50,40 100,20 Q150,0 200,20" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                    <circle cx="20" cy="20" r="3" fill="currentColor"/>
+                    <circle cx="100" cy="20" r="4" fill="currentColor"/>
+                    <circle cx="180" cy="20" r="3" fill="currentColor"/>
+                </svg>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span class="scroll-arrow"></span>
+        </div>
+    </header>
+
+    <!-- Story Section -->
+    <section class="story-section">
+        <div class="container">
+            <div class="section-header">
+                <svg class="section-ornament" viewBox="0 0 100 20">
+                    <path d="M0,10 Q25,0 50,10 Q75,20 100,10" stroke="currentColor" fill="none" stroke-width="1"/>
+                </svg>
+                <h2 data-ru="Наша история" data-ky="Биздин тарыхыбыз">Наша история</h2>
+                <svg class="section-ornament" viewBox="0 0 100 20">
+                    <path d="M0,10 Q25,20 50,10 Q75,0 100,10" stroke="currentColor" fill="none" stroke-width="1"/>
+                </svg>
+            </div>
+            <div class="story-content">
+                <p data-ru="Мы рады пригласить вас разделить с нами самый важный день в нашей жизни. 
+                Наша любовь — это соединение двух сердец, двух культур и двух душ. 
+                Присоединяйтесь к нам, чтобы вместе отпраздновать начало нашего совместного пути."
+                   data-ky="Биз сизди биздин жашообуздагы эң маанилүү күнү биз менен бөлүшүүгө чакырабыз. 
+                Биздин сүйүүбүз — эки жүрөктүн жана эки жандын бириккени. 
+                Биздин биргелешкен жолубуздун башталышын бирге белгилөөгө кошулуңуз.">
+                    Мы рады пригласить вас разделить с нами самый важный день в нашей жизни. 
+                    Наша любовь — это соединение двух сердец и двух душ. 
+                    Присоединяйтесь к нам, чтобы вместе отпраздновать начало нашего совместного пути.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Details Section -->
+    <section class="details-section">
+        <div class="container">
+            <div class="section-header">
+                <svg class="section-ornament" viewBox="0 0 100 20">
+                    <path d="M0,10 Q25,0 50,10 Q75,20 100,10" stroke="currentColor" fill="none" stroke-width="1"/>
+                </svg>
+                <h2 data-ru="Детали мероприятия" data-ky="Иш-чаранын чоо-жайы">Детали мероприятия</h2>
+                <svg class="section-ornament" viewBox="0 0 100 20">
+                    <path d="M0,10 Q25,20 50,10 Q75,0 100,10" stroke="currentColor" fill="none" stroke-width="1"/>
+                </svg>
+            </div>
+            <div class="details-grid">
+                <div class="detail-card">
+                    <div class="detail-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3 data-ru="Дата и время" data-ky="Күнү жана убактысы">Дата и время</h3>
+                    <p class="detail-text" data-ru="01 августа 2026 года" data-ky="2026-жылдын 01-августу">01 августа 2026 года</p>
+                    <p class="detail-subtext" data-ru="Начало в 17:00" data-ky="17:00да башталат">Начало в 17:00</p>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </div>
+                    <h3 data-ru="Место проведения" data-ky="Өткөрүү жери">Место проведения</h3>
+                    <p class="detail-text" data-ru="Ресторан «Ала-Тоо»" data-ky="«Алтын-Кол» рестораны">Ресторан «Алтын-Кол»</p>
+                    <p class="detail-subtext" data-ru="г. Бишкек, пр. Манаса 45" data-ky="Бишкек ш., Манас проспекти 45">г. Бишкек, пр. Манаса 45</p>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                    </div>
+                    <h3 data-ru="Дресс-код" data-ky="Кийим коду">Дресс-код</h3>
+                    <p class="detail-text" data-ru="Вечерний наряд" data-ky="Кечки кийим">Вечерний наряд</p>
+                    <p class="detail-subtext" data-ru="Хорошее настроение" 
+                       data-ky="Жакшы маанай"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="countdown-section">
+        <div class="container">
+            <h2 data-ru="До нашей свадьбы осталось" data-ky="Үйлөнүүбүзгө чейин калды">До нашей свадьбы осталось</h2>
+            <div class="countdown-grid">
+                <div class="countdown-item">
+                    <span class="countdown-number" id="days">00</span>
+                    <span class="countdown-label" data-ru="Дней" data-ky="Күн">Дней</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="hours">00</span>
+                    <span class="countdown-label" data-ru="Часов" data-ky="Саат">Часов</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="minutes">00</span>
+                    <span class="countdown-label" data-ru="Минут" data-ky="Мүнөт">Минут</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="seconds">00</span>
+                    <span class="countdown-label" data-ru="Секунд" data-ky="Секунд">Секунд</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <svg class="section-ornament" viewBox="0 0 100 20">
+                    <path d="M0,10 Q25,0 50,10 Q75,20 100,10" stroke="currentColor" fill="none" stroke-width="1"/>
+                </svg>
+                <h2 data-ru="Наши моменты" data-ky="Биздин моменттер">Наши моменты</h2>
+                <svg class="section-ornament" viewBox="0 0 100 20">
+                    <path d="M0,10 Q25,20 50,10 Q75,0 100,10" stroke="currentColor" fill="none" stroke-width="1"/>
+                </svg>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <circle cx="8.5" cy="8.5" r="1.5"/>
+                            <path d="M21 15l-5-5L5 21"/>
+                        </svg>
+                        <span data-ru="Ваша фотография" data-ky="Сиздин сүрөтүңүз">Ваша фотография</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <circle cx="8.5" cy="8.5" r="1.5"/>
+                            <path d="M21 15l-5-5L5 21"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <circle cx="8.5" cy="8.5" r="1.5"/>
+                            <path d="M21 15l-5-5L5 21"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <circle cx="8.5" cy="8.5" r="1.5"/>
+                            <path d="M21 15l-5-5L5 21"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <circle cx="8.5" cy="8.5" r="1.5"/>
+                            <path d="M21 15l-5-5L5 21"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section class="rsvp-section" id="rsvp">
+        <div class="container">
+            <div class="section-header">
+                <svg class="section-ornament" viewBox="0 0 100 20">
+                    <path d="M0,10 Q25,0 50,10 Q75,20 100,10" stroke="currentColor" fill="none" stroke-width="1"/>
+                </svg>
+                <h2 data-ru="Подтвердите участие" data-ky="Катышууну ырастаңыз">Подтвердите участие</h2>
+                <svg class="section-ornament" viewBox="0 0 100 20">
+                    <path d="M0,10 Q25,20 50,10 Q75,0 100,10" stroke="currentColor" fill="none" stroke-width="1"/>
+                </svg>
+            </div>
+            <p class="rsvp-intro" data-ru="Пожалуйста, заполните форму ниже, чтобы мы могли подготовиться к вашему визиту."
+               data-ky="Сураныч, биз сиздин келишиңизге даярдануу үчүн төмөнкү форманы толтуруңуз.">
+                Пожалуйста, заполните форму ниже, чтобы мы могли подготовиться к вашему визиту.
+            </p>
+            
+            <form class="rsvp-form" id="rsvpForm">
+                <div class="form-group">
+                    <label for="guestName" data-ru="Ваше имя и фамилия" data-ky="Сиздин аты-жөнүңүз">Ваше имя и фамилия</label>
+                    <input type="text" id="guestName" name="guestName" required 
+                           data-placeholder-ru="Например: Айгуль Садыкова" 
+                           data-placeholder-ky="Мисалы: Айгүл Садыкова"
+                           placeholder="Например: Айгуль Садыкова">
+                </div>
+                
+                <div class="form-group">
+                    <label for="guestPhone" data-ru="Номер телефона" data-ky="Телефон номери">Номер телефона</label>
+                    <input type="tel" id="guestPhone" name="guestPhone" required
+                           data-placeholder-ru="+996 555 123 456" 
+                           data-placeholder-ky="+996 555 123 456"
+                           placeholder="+996 555 123 456">
+                </div>
+                
+                <div class="form-group">
+                    <label data-ru="Количество гостей" data-ky="Коноктордун саны">Количество гостей</label>
+                    <div class="guest-counter">
+                        <button type="button" class="counter-btn" id="decreaseGuests">−</button>
+                        <input type="number" id="guestCount" name="guestCount" value="1" min="1" max="10" readonly>
+                        <button type="button" class="counter-btn" id="increaseGuests">+</button>
+                    </div>
+                </div>
+                
+                <div class="form-group checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="willAttend" name="willAttend" checked>
+                        <span class="checkmark"></span>
+                        <span class="checkbox-text" data-ru="Я приду на свадьбу" data-ky="Мен үйлөнүүгө барам">Я приду на свадьбу</span>
+                    </label>
+                </div>
+                
+                <div class="form-group" id="dietaryGroup">
+                    <label for="dietary" data-ru="Особые пожелания (аллергии, предпочтения в еде)" 
+                           data-ky="Атайын каалоолор (аллергия, тамак-аштык каалоолор)">Особые пожелания</label>
+                    <textarea id="dietary" name="dietary" rows="3"
+                              data-placeholder-ru="Например: аллергия на орехи, вегетарианец..."
+                              data-placeholder-ky="Мисалы: жаңгакка аллергия, вегетарианец..."
+                              placeholder="Например: аллергия на орехи, вегетарианец..."></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn" data-ru="Отправить" data-ky="Жөнөтүү">Отправить</button>
+            </form>
+            
+            <div class="rsvp-success hidden" id="rsvpSuccess">
+                <div class="success-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                        <polyline points="22 4 12 14.01 9 11.01"/>
+                    </svg>
+                </div>
+                <h3 data-ru="Спасибо!" data-ky="Рахмат!">Спасибо!</h3>
+                <p data-ru="Ваш ответ успешно отправлен. Мы с нетерпением ждем встречи с вами!"
+                   data-ky="Сиздин жообуңуз ийгиликтүү жөнөтүлдү. Сиз менен жолугушууну чыдамсыздык менен күтүп жатабыз!">
+                    Ваш ответ успешно отправлен. Мы с нетерпением ждем встречи с вами!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-ornament">
+                <svg viewBox="0 0 200 30" class="ornament-svg">
+                    <path d="M0,15 Q50,0 100,15 Q150,30 200,15" stroke="currentColor" fill="none" stroke-width="1"/>
+                </svg>
+            </div>
+            <p class="footer-names">Adil & Elena</p>
+            <p class="footer-date">28.08.2026</p>
+            <p class="footer-thanks" data-ru="С любовью и благодарностью" data-ky="Сүйүү жана ыраазычылык менен">С любовью и благодарностью</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
