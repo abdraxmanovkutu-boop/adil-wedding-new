@@ -450,3 +450,38 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyB-_HaznK1UM1EahQgDO-XdO_eBL4Dlots",
+  authDomain: "adil-elena-wedding.firebaseapp.com",
+  projectId: "adil-elena-wedding",
+  storageBucket: "adil-elena-wedding.firebasestorage.app",
+  messagingSenderId: "911079053624",
+  appId: "1:911079053624:web:91b48a3308c2b5e96289cd",
+  measurementId: "G-JMCRHEMPCH"
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getDatabase(app);
+
+const form = document.getElementById("rsvpForm");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const name = document.getElementById("name").value;
+  const guests = document.getElementById("guests").value;
+
+  const newGuestRef = push(ref(db, "guests"));
+
+  set(newGuestRef, {
+    name: name,
+    guests: Number(guests),
+    createdAt: Date.now()
+  });
+
+  alert("Спасибо! Вы записаны 🙌");
+  form.reset();
+});
