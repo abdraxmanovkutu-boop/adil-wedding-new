@@ -451,11 +451,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-import { getDatabase, ref, push, set } from "https://adil-elena-wedding-default-rtdb.asia-southeast1.firebasedatabase.app/";
+import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
 
 const firebaseConfig = {
   apiKey: "AIzaSyB-_HaznK1UM1EahQgDO-XdO_eBL4Dlots",
   authDomain: "adil-elena-wedding.firebaseapp.com",
+  databaseURL: "https://adil-elena-wedding-default-rtdb.asia-southeast1.firebasedatabase.app/",
   projectId: "adil-elena-wedding",
   storageBucket: "adil-elena-wedding.firebasestorage.app",
   messagingSenderId: "911079053624",
