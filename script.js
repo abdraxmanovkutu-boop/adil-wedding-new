@@ -471,8 +471,8 @@ const form = document.getElementById("rsvpForm");
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
-  const name = document.getElementById("name").value;
-  const guests = document.getElementById("guests").value;
+  const name = document.getElementById("guestName").value;
+  const guests = document.getElementById("guestCount").value;
 
   const newGuestRef = push(ref(db, "guests"));
 
